@@ -1,0 +1,5 @@
+{
+  "name": "Topography Kit Checklist",
+  "description": "A web application to generate a PDF checklist report for topography equipment kits. Users can check the status of items, upload photos, and sign off before generating the report.",
+  "requestFramePermissions": []
+}
