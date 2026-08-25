@@ -7,10 +7,12 @@
  * Certifique-se de ter instalado: npm install ftp
  */
 
-const fs = require('fs');
-const path = require('path');
-const FTPClient = require('ftp');
-require('dotenv').config();
+import fs from 'fs';
+import path from 'path';
+import FTPClient from 'ftp';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const config = {
   host: process.env.FTP_HOST || 'ftp.beige-cat-184405.hostingersite.com',
