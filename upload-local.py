@@ -12,8 +12,8 @@ import ftplib
 from pathlib import Path
 
 # === CONFIGURAÇÃO ===
-FTP_HOST = 'ftp.beige-cat-184405.hostingersite.com'
-FTP_USER = 'u880459407.panpp'
+FTP_HOST = '62.72.62.92'  # IP correto do painel Hostinger
+FTP_USER = 'u880459407.beige-cat-184405.hostingersite.com'  # Nome correto
 FTP_PASSWORD = '22Panpp2-'
 FTP_PORT = 21
 REMOTE_DIR = '/public_html'
